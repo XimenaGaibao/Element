@@ -19,9 +19,9 @@ export default function Login() {
                         <label for="password">CONTRASEÑA</label>
                         <input type="password" className="form-control" id="password" name="password" required/>
                     </div><br />
-                    <button type="submit" className="btn btn-primary">INICIAR SESIÓN</button>
+                    <button type="submit" className="btn btn-primary" href="/">INICIAR SESIÓN</button>
                     <div className="mt-3 text-center">
-                    <a href="#">REGISTRARSE</a>
+                    <a href="/registro">REGISTRARSE</a>
                 </div>
                 </form>
                 </div>

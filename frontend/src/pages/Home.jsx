@@ -9,8 +9,8 @@ export default function Home() {
           <h2>Conectando corazones con causas</h2>
           <p>Únete y haz la diferencia</p>
           <div className="hero-buttons">
-            <button className="primary-btn">INICIAR SESIÓN</button>
-            <button className="secondary-btn">REGISTRARSE</button>
+            <a href="/login"><button className="primary-btn">INICIAR SESIÓN</button></a>
+            <a href="/registro"><button className="secondary-btn">REGISTRARSE</button></a>
           </div>
         </div>
       </header>
